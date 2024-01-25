@@ -6,7 +6,7 @@
         const NEW_ITEM_ATTR = 'data-component="mad_store"';
         const NEW_ITEM_SELECTOR = `[${NEW_ITEM_ATTR}]`;
         const NEW_ITEM_TEXT = 'Расширения :: Mad';
-        const NEW_ITEM_LINK = 'https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/store.json';
+        const NEW_ITEM_LINK = 'https://k03mad.github.io/lampa/plugins/store.json';
 
         const ITEM_PLUGINS_SELECTOR = '[data-component="plugins"]';
 

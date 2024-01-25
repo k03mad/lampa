@@ -7,20 +7,20 @@
         {
           "name": "Добавить в главное меню Мультфильмы и расположить вместе с Аниме после Сериалов",
           "author": "https://github.com/k03mad/lampa",
-          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-mult.js",
+          "link": "https://k03mad.github.io/lampa/plugins/add-mult.js",
           "available_lampa": 1
         },
         {
           "name": "Добавить в главное меню Кинопоиск и расположить перед Каталогом",
           "descr": "Не зависит от текущего источника по умолчанию, отображается всегда\nРаботает только вместе с плагином, добавляющим сам Кинопоиск как источник:\nhttps://nb557.github.io/plugins/kp_source.js",
           "author": "https://github.com/k03mad/lampa",
-          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-kp.js",
+          "link": "https://k03mad.github.io/lampa/plugins/add-kp.js",
           "available_lampa": 1
         },
         {
           "name": "Скрывает иконки Премиума и Ленты из верхнего тулбара",
           "author": "https://github.com/k03mad/lampa",
-          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/hide-icons.js",
+          "link": "https://k03mad.github.io/lampa/plugins/hide-icons.js",
           "available_lampa": 1
         }
       ]
