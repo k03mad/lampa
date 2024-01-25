@@ -11,7 +11,7 @@
 — Готово
 ```
 
-Остальные плагины можно добавить через новое меню, либо также, напрямую:
+Остальные плагины можно добавить через новое меню, либо тоже напрямую:
 
 - Добавить Мультфильмы в главное меню и расположить вместе с Аниме после Сериалов \
 [https://k03mad.github.io/lampa/plugins/add-mult.js](https://k03mad.github.io/lampa/plugins/add-mult.js)
@@ -24,3 +24,5 @@ $\quad$[https://nb557.github.io/plugins/kp_source.js](https://nb557.github.io/pl
 
 - Скрывает иконки Премиума и Ленты из верхнего тулбара \
 [https://k03mad.github.io/lampa/plugins/hide-icons.js](https://k03mad.github.io/lampa/plugins/hide-icons.js)
+
+После добавления некоторых плагинов нужно переоткрыть приложение
