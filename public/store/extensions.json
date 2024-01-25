@@ -8,7 +8,7 @@
           "name": "Мультфильмы",
           "author": "https://github.com/k03mad/lampa",
           "descr": "Меню \"Мультфильмы\" и \"Аниме\" после \"Сериалы\"",
-          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/src/plugins/mult.js",
+          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/public/plugins/mult.js",
           "available_lampa": 1
         }
       ]
