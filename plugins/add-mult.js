@@ -6,15 +6,17 @@
         const NEW_ITEM_ATTR = 'data-action="mad_mult"';
         const NEW_ITEM_SELECTOR = `[${NEW_ITEM_ATTR}]`;
         const NEW_ITEM_TEXT = 'Мультфильмы';
+        const NEW_ITEM_SOURCES = new Set(['cub', 'tmdb']);
 
         const ITEM_TV_SELECTOR = '[data-action="tv"]';
         const ITEM_ANIME_SELECTOR = '[data-action="anime"]';
 
         const ITEM_MOVE_TIMEOUT = 2000;
 
-        const moveItemAfter = (item, after) => setTimeout(() => {
-            $(item).insertAfter($(after));
-        }, ITEM_MOVE_TIMEOUT);
+        const moveItemAfter = (item, after) => setTimeout(
+            () => $(item).insertAfter($(after)),
+            ITEM_MOVE_TIMEOUT,
+        );
 
         const field = $(/* html */`
           <li class="menu__item selector" ${NEW_ITEM_ATTR}>
@@ -31,13 +33,16 @@
         `);
 
         field.on('hover:enter', () => {
+            const {source: currentSource} = Lampa.Activity.active();
+            const source = NEW_ITEM_SOURCES.has(currentSource) ? currentSource : 'tmdb';
+
             Lampa.Activity.push({
-                url: '',
-                title: `${NEW_ITEM_TEXT} - CUB`,
+                url: 'movie',
+                title: `${NEW_ITEM_TEXT} - ${source.toUpperCase()}`,
                 component: 'category',
                 genres: 16,
                 id: 16,
-                source: 'cub',
+                source,
                 card_type: true,
                 page: 1,
             });

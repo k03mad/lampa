@@ -2,12 +2,19 @@
   "secuses": true,
   "results": [
     {
-      "title": "My",
+      "title": "Мои",
       "results": [
         {
-          "name": "Добавить Мультфильмы и расположить вместе с Аниме после Сериалов",
+          "name": "Добавить в главное меню Мультфильмы и расположить вместе с Аниме после Сериалов",
           "author": "https://github.com/k03mad/lampa",
           "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-mult.js",
+          "available_lampa": 1
+        },
+        {
+          "name": "Добавить в главное меню Кинопоиск и расположить перед Каталогом",
+          "descr": "Не зависит от текущего источника по умолчанию, отображается всегда\nРаботает только вместе с плагином, добавляющим сам Кинопоиск как источник",
+          "author": "https://github.com/k03mad/lampa",
+          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-kp.js",
           "available_lampa": 1
         },
         {
@@ -19,7 +26,7 @@
       ]
     },
     {
-      "title": "Various",
+      "title": "Сообщество",
       "results": [
         {
           "name": "Альтернативный магазин плагинов",
@@ -28,7 +35,7 @@
           "available_lampa": 1
         },
         {
-          "name": "Источник КиноПоиск",
+          "name": "Источник Кинопоиск",
           "author": "https://github.com/nb557/plugins",
           "link": "https://nb557.github.io/plugins/kp_source.js",
           "available_lampa": 1
