@@ -2,34 +2,26 @@
   "secuses": true,
   "results": [
     {
-      "title": "Плагины",
+      "title": "Mad",
       "results": [
         {
-          "name": "Online",
-          "author": "https://github.com/nb557/plugins",
-          "link": "https://nb557.github.io/plugins/online_mod.js",
+          "name": "Мультфильмы",
+          "author": "https://github.com/k03mad/lampa",
+          "descr": "Пункты меню \"Мультфильмы\" и \"Аниме\" после \"Сериалы\"",
+          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/src/plugins/mult.js",
           "available_lampa": 1
         },
+      ]
+    },
+    {
+      "title": "Alt Store",
+      "results": [
         {
-          "name": "Mult",
-          "author": "@andreyurl54",
-          "link": "http://95.215.8.180/plugins/mult.js",
-          "available_lampa": 1
-        },
-        {
-          "name": "IPTV Kulik",
-          "author": "@SawamuraRen",
-          "link": "http://cdn.kulik.uz/cors",
-          "available_lampa": 1
-        },
-        {
-          "name": "Tricks",
-          "author": "https://github.com/andreyurl54/diesel5",
-          "link": "https://andreyurl54.github.io/diesel5/tricks.js",
+          "link": "https://skaztv.online/store.js",
           "available_lampa": 1
         }
       ],
-      "hpu": "all"
+      "hpu": "others"
     }
   ]
 }

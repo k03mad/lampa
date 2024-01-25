@@ -1,22 +1,21 @@
 (() => {
-    const ATTR_STORE = 'data-component="mad_store"';
-    const ATTR_STORE_SELECTOR = `[${ATTR_STORE}]`;
+    const NEW_ITEM_ATTR = 'data-component="mad_store"';
+    const NEW_ITEM_SELECTOR = `[${NEW_ITEM_ATTR}]`;
+    const NEW_ITEM_TEXT = 'Расширения :: Mad';
+    const NEW_ITEM_LINK = 'https://cdn.jsdelivr.net/gh/k03mad/lampa/src/store/extensions.json';
 
-    const MENU_AFTER = '[data-component="plugins"]';
-    const MENU_NAME = 'Расширения :: Mad';
-
-    const EXTENSIONS = 'https://cdn.jsdelivr.net/gh/k03mad/lampa/src/store/extensions.json';
+    const ITEM_PLUGINS_SELECTOR = '[data-component="plugins"]';
 
     const addStore = () => {
         if (
             Lampa.Settings.main
             && Lampa.Settings.main()
                 .render()
-                .find(ATTR_STORE_SELECTOR)
+                .find(NEW_ITEM_SELECTOR)
                 .length === 0
         ) {
             const field = $(/* html */`
-              <div class="settings-folder selector" ${ATTR_STORE} data-static="true">
+              <div class="settings-folder selector" ${NEW_ITEM_ATTR} data-static="true">
                 <div class="settings-folder__icon">
                     <svg height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="21" height="21" rx="2" fill="white"></rect>
@@ -29,26 +28,26 @@
                         <rect x="34" y="44" width="17" height="3" transform="rotate(-90 34 44)" fill="white"></rect>
                     </svg>
                 </div>
-                <div class="settings-folder__name">${MENU_NAME}</div>
+                <div class="settings-folder__name">${NEW_ITEM_TEXT}</div>
               </div>
             `);
 
             Lampa.Settings.main()
                 .render()
-                .find(MENU_AFTER)
+                .find(ITEM_PLUGINS_SELECTOR)
                 .after(field);
 
             Lampa.Settings.main().update();
         }
     };
 
-    Lampa.Settings.listener.follow('open', elem => {
-        if (elem.name === 'main') {
-            elem.body
-                .find(ATTR_STORE_SELECTOR)
+    Lampa.Settings.listener.follow('open', event => {
+        if (event.name === 'main') {
+            event.body
+                .find(NEW_ITEM_SELECTOR)
                 .on('hover:enter', () => {
                     Lampa.Extensions.show({
-                        store: EXTENSIONS,
+                        store: NEW_ITEM_LINK,
                         with_installed: true,
                     });
                 });
@@ -58,8 +57,8 @@
     if (window.appready) {
         addStore();
     } else {
-        Lampa.Listener.follow('app', e => {
-            if (e.type === 'ready') {
+        Lampa.Listener.follow('app', event => {
+            if (event.type === 'ready') {
                 addStore();
             }
         });
