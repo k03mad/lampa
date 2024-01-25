@@ -22,7 +22,7 @@
 — Работает только вместе со сторонним плагином, добавляющим Кинопоиск как источник: \
 [https://nb557.github.io/plugins/kp_source.js](https://nb557.github.io/plugins/kp_source.js)
 
-- Скрывает иконки Премиума и Ленты из верхнего тулбара \
+- Скрывает почти все дефолтные иконки из верхнего тулбара, кроме поиска и уведомлений \
 [https://k03mad.github.io/lampa/plugins/hide-icons.js](https://k03mad.github.io/lampa/plugins/hide-icons.js)
 
 После добавления некоторых плагинов нужно переоткрыть приложение

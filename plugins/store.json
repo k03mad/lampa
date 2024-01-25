@@ -18,7 +18,7 @@
           "available_lampa": 1
         },
         {
-          "name": "Скрывает иконки Премиума и Ленты из верхнего тулбара",
+          "name": "Скрывает почти все дефолтные иконки из верхнего тулбара, кроме поиска и уведомлений",
           "author": "https://github.com/k03mad/lampa",
           "link": "https://k03mad.github.io/lampa/plugins/hide-icons.js",
           "available_lampa": 1
