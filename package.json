@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "@k03mad/request": "5.6.0",
+    "@k03mad/simple-log": "2.1.0",
     "globby": "14.0.0"
   },
   "devDependencies": {

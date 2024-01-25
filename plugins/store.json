@@ -7,13 +7,13 @@
         {
           "name": "Добавить Мультфильмы и расположить вместе с Аниме после Сериалов",
           "author": "https://github.com/k03mad/lampa",
-          "link": "https://raw.githack.com/k03mad/lampa/master/plugins/add-mult.js",
+          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-mult.js",
           "available_lampa": 1
         },
         {
           "name": "Скрыть иконки Премиума и Ленты из верхнего тулбара",
           "author": "https://github.com/k03mad/lampa",
-          "link": "https://raw.githack.com/k03mad/lampa/master/plugins/hide-icons.js",
+          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/hide-icons.js",
           "available_lampa": 1
         }
       ]
@@ -24,13 +24,13 @@
         {
           "name": "Альтернативный магазин плагинов",
           "author": "https://github.com/lampaplugins/store",
-          "link": "https://raw.githack.com/lampaplugins/store/main/store.js",
+          "link": "https://cdn.jsdelivr.net/gh/lampaplugins/store/store.js",
           "available_lampa": 1
         },
         {
           "name": "Источник КиноПоиск",
           "author": "https://github.com/nb557/plugins",
-          "link": "https://raw.githack.com/nb557/plugins/main/kp_source.js",
+          "link": "https://cdn.jsdelivr.net/gh/nb557/plugins/kp_source.js",
           "available_lampa": 1
         }
       ]
