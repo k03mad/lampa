@@ -1,4 +1,7 @@
 (() => {
+    // eslint-disable-next-line strict, unicorn/prefer-module
+    'use strict';
+
     const main = () => {
         const ITEMS_HIDE_SELECTORS = [
             '.open--premium',

@@ -1,4 +1,7 @@
 (() => {
+    // eslint-disable-next-line strict, unicorn/prefer-module
+    'use strict';
+
     const main = () => {
         const NEW_ITEM_ATTR = 'data-component="mad_store"';
         const NEW_ITEM_SELECTOR = `[${NEW_ITEM_ATTR}]`;
