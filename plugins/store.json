@@ -24,13 +24,13 @@
         {
           "name": "Альтернативный магазин плагинов",
           "author": "https://github.com/lampaplugins/store",
-          "link": "https://cdn.jsdelivr.net/gh/lampaplugins/store/store.js",
+          "link": "https://lampaplugins.github.io/store/store.js",
           "available_lampa": 1
         },
         {
           "name": "Источник КиноПоиск",
           "author": "https://github.com/nb557/plugins",
-          "link": "https://cdn.jsdelivr.net/gh/nb557/plugins/kp_source.js",
+          "link": "https://nb557.github.io/plugins/kp_source.js",
           "available_lampa": 1
         }
       ]
