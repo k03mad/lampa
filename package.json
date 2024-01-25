@@ -23,7 +23,7 @@
   "devDependencies": {
     "@k03mad/eslint-config": "20.2.0",
     "eslint": "8.56.0",
-    "husky": "8.0.3"
+    "husky": "9.0.5"
   },
   "scripts": {
     "lint": "npm run lint:eslint",
@@ -33,6 +33,6 @@
     "clean:eslint:cache": "rm -rf .eslintcache || true",
     "setup": "npm run clean && pnpm i",
     "cache:purge": "DEBUG=mad* node scripts/cache-purge",
-    "prepare": "husky install || true"
+    "prepare": "husky || true"
   }
 }
