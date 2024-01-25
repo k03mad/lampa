@@ -23,7 +23,7 @@
   "devDependencies": {
     "@k03mad/eslint-config": "20.2.0",
     "eslint": "8.56.0",
-    "husky": "8.0.3"
+    "husky": "9.0.2"
   },
   "scripts": {
     "lint": "npm run lint:eslint",
