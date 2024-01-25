@@ -6,7 +6,7 @@
 
     const ITEM_PLUGINS_SELECTOR = '[data-component="plugins"]';
 
-    const addStore = () => {
+    const main = () => {
         if (
             Lampa.Settings.main
             && Lampa.Settings.main()
@@ -55,11 +55,11 @@
     });
 
     if (window.appready) {
-        addStore();
+        main();
     } else {
         Lampa.Listener.follow('app', event => {
             if (event.type === 'ready') {
-                addStore();
+                main();
             }
         });
     }

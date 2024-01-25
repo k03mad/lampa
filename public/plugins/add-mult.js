@@ -12,7 +12,7 @@
         $(item).insertAfter($(after));
     }, ITEM_MOVE_TIMEOUT);
 
-    const addMult = () => {
+    const main = () => {
         const field = $(/* html */`
           <li class="menu__item selector" ${NEW_ITEM_ATTR}>
              <div class="menu__ico">
@@ -50,11 +50,11 @@
     };
 
     if (window.appready) {
-        addMult();
+        main();
     } else {
         Lampa.Listener.follow('app', event => {
             if (event.type === 'ready') {
-                addMult();
+                main();
             }
         });
     }

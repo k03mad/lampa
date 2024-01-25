@@ -4,14 +4,14 @@
         '.open--feed',
     ];
 
-    const hide = () => ITEMS_HIDE_SELECTORS.forEach(item => $(item).hide());
+    const main = () => ITEMS_HIDE_SELECTORS.forEach(item => $(item).hide());
 
     if (window.appready) {
-        hide();
+        main();
     } else {
         Lampa.Listener.follow('app', event => {
             if (event.type === 'ready') {
-                hide();
+                main();
             }
         });
     }
