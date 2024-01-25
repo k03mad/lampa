@@ -1,9 +1,17 @@
 # Lampa Plugins
 
-Меню выбора плагинов из этого репозитория в настройках \
+Добавить меню выбора плагинов из этого репозитория в настройки:
 [https://k03mad.github.io/lampa/plugins/add-store.js](https://k03mad.github.io/lampa/plugins/add-store.js)
 
-Остальные плагины можно добавить через новое меню, либо напрямую:
+```plain
+— Настройки
+— Расширения
+— Добавить плагин
+— https://k03mad.github.io/lampa/plugins/add-store.js
+— Готово
+```
+
+Остальные плагины можно добавить через новое меню, либо также, напрямую:
 
 - Добавить Мультфильмы в главное меню и расположить вместе с Аниме после Сериалов \
 [https://k03mad.github.io/lampa/plugins/add-mult.js](https://k03mad.github.io/lampa/plugins/add-mult.js)
