@@ -7,10 +7,10 @@
         {
           "name": "Мультфильмы",
           "author": "https://github.com/k03mad/lampa",
-          "descr": "Пункты меню \"Мультфильмы\" и \"Аниме\" после \"Сериалы\"",
+          "descr": "Меню \"Мультфильмы\" и \"Аниме\" после \"Сериалы\"",
           "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/src/plugins/mult.js",
           "available_lampa": 1
-        },
+        }
       ]
     },
     {
