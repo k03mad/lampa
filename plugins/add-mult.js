@@ -6,7 +6,7 @@
         const NEW_ITEM_ATTR = 'data-action="mad_mult"';
         const NEW_ITEM_SELECTOR = `[${NEW_ITEM_ATTR}]`;
         const NEW_ITEM_TEXT = 'Мультфильмы';
-        const NEW_ITEM_SOURCES = new Set(['cub', 'tmdb']);
+        const NEW_ITEM_SOURCES = ['tmdb', 'cub'];
 
         const ITEM_TV_SELECTOR = '[data-action="tv"]';
         const ITEM_ANIME_SELECTOR = '[data-action="anime"]';
@@ -34,7 +34,10 @@
 
         field.on('hover:enter', () => {
             const {source: currentSource} = Lampa.Activity.active();
-            const source = NEW_ITEM_SOURCES.has(currentSource) ? currentSource : 'tmdb';
+
+            const source = NEW_ITEM_SOURCES.includes(currentSource)
+                ? currentSource
+                : NEW_ITEM_SOURCES[0];
 
             Lampa.Activity.push({
                 url: 'movie',
