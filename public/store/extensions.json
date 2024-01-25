@@ -2,26 +2,32 @@
   "secuses": true,
   "results": [
     {
-      "title": "Mad",
+      "title": "My",
       "results": [
         {
-          "name": "Мультфильмы",
+          "name": "Мультфильмы и Аниме после Сериалов",
           "author": "https://github.com/k03mad/lampa",
-          "descr": "Меню \"Мультфильмы\" и \"Аниме\" после \"Сериалы\"",
           "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/public/plugins/mult.js",
           "available_lampa": 1
         }
       ]
     },
     {
-      "title": "Alt Store",
+      "title": "Various",
       "results": [
         {
-          "link": "https://skaztv.online/store.js",
+          "name": "Альтернативный магазин плагинов",
+          "author": "https://github.com/lampaplugins/store",
+          "link": "https://lampaplugins.github.io/store/store.js",
+          "available_lampa": 1
+        },
+        {
+          "name": "Источник КиноПоиск",
+          "author": "https://github.com/nb557/plugins",
+          "link": "https://nb557.github.io/plugins/kp_source.js",
           "available_lampa": 1
         }
-      ],
-      "hpu": "others"
+      ]
     }
   ]
 }
