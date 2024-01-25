@@ -9,7 +9,7 @@ https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-store.js
 https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-mult.js
 
 — Добавить в главное меню Кинопоиск и расположить перед Каталогом \
-https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-mult.js \
+https://cdn.jsdelivr.net/gh/k03mad/lampa/plugins/add-kp.js \
 `Не зависит от текущего источника по умолчанию, отображается всегда` \
 `Работает только вместе со сторонним плагином, добавляющим сам Кинопоиск как источник:` \
 https://nb557.github.io/plugins/kp_source.js
