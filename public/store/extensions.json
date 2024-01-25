@@ -5,9 +5,15 @@
       "title": "My",
       "results": [
         {
-          "name": "Мультфильмы и Аниме после Сериалов",
+          "name": "Добавить Мультфильмы и расположить вместе с Аниме после Сериалов",
           "author": "https://github.com/k03mad/lampa",
-          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/public/plugins/mult.js",
+          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/public/plugins/add-mult.js",
+          "available_lampa": 1
+        },
+        {
+          "name": "Скрыть иконки Премиума и Ленты из верхнего тулбара",
+          "author": "https://github.com/k03mad/lampa",
+          "link": "https://cdn.jsdelivr.net/gh/k03mad/lampa/public/plugins/hide-icons.js",
           "available_lampa": 1
         }
       ]
