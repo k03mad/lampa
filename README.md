@@ -1,6 +1,6 @@
 # Lampa Plugins
 
-Добавить меню выбора плагинов из этого репозитория в настройки:
+Добавить меню выбора плагинов из этого репозитория в настройки: \
 [https://k03mad.github.io/lampa/plugins/add-store.js](https://k03mad.github.io/lampa/plugins/add-store.js)
 
 ```plain
