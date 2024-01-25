@@ -20,7 +20,7 @@
 [https://k03mad.github.io/lampa/plugins/add-kp.js](https://k03mad.github.io/lampa/plugins/add-kp.js) \
 — Не зависит от текущего источника по умолчанию, отображается всегда \
 — Работает только вместе со сторонним плагином, добавляющим сам Кинопоиск как источник: \
-— [https://nb557.github.io/plugins/kp_source.js](https://nb557.github.io/plugins/kp_source.js)
+$\quad$[https://nb557.github.io/plugins/kp_source.js](https://nb557.github.io/plugins/kp_source.js)
 
 - Скрывает иконки Премиума и Ленты из верхнего тулбара \
 [https://k03mad.github.io/lampa/plugins/hide-icons.js](https://k03mad.github.io/lampa/plugins/hide-icons.js)
