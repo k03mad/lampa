@@ -1,0 +1,35 @@
+{
+  "secuses": true,
+  "results": [
+    {
+      "title": "Плагины",
+      "results": [
+        {
+          "name": "Online",
+          "author": "https://github.com/nb557/plugins",
+          "link": "https://nb557.github.io/plugins/online_mod.js",
+          "available_lampa": 1
+        },
+        {
+          "name": "Mult",
+          "author": "@andreyurl54",
+          "link": "http://95.215.8.180/plugins/mult.js",
+          "available_lampa": 1
+        },
+        {
+          "name": "IPTV Kulik",
+          "author": "@SawamuraRen",
+          "link": "http://cdn.kulik.uz/cors",
+          "available_lampa": 1
+        },
+        {
+          "name": "Tricks",
+          "author": "https://github.com/andreyurl54/diesel5",
+          "link": "https://andreyurl54.github.io/diesel5/tricks.js",
+          "available_lampa": 1
+        }
+      ],
+      "hpu": "all"
+    }
+  ]
+}

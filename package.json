@@ -1,0 +1,32 @@
+{
+  "name": "lampa",
+  "version": "1.0.0",
+  "description": "Lampa Plugins",
+  "maintainers": [
+    "Kirill Molchanov <k03.mad@gmail.com"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k03mad/lampa.git"
+  },
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=21"
+  },
+  "devDependencies": {
+    "@k03mad/eslint-config": "20.2.0",
+    "eslint": "8.56.0",
+    "husky": "8.0.3"
+  },
+  "scripts": {
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint ./ --cache",
+    "clean": "npm run clean:modules && npm run clean:eslint:cache",
+    "clean:modules": "rm -rf ./node_modules || true",
+    "clean:eslint:cache": "rm -rf .eslintcache || true",
+    "setup": "npm run clean && pnpm i",
+    "prepare": "husky install || true"
+  }
+}
