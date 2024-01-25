@@ -8,9 +8,6 @@ dependencies:
   '@k03mad/request':
     specifier: 5.6.0
     version: 5.6.0
-  '@k03mad/simple-log':
-    specifier: 2.1.0
-    version: 2.1.0
   globby:
     specifier: 14.0.0
     version: 14.0.0
@@ -162,18 +159,6 @@ packages:
       strip-ansi: 7.1.0
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /@k03mad/simple-date@1.0.0:
-    resolution: {integrity: sha512-VMvhf0a73RRD1ZFF+/0Yo5/uD4ZQbrZ2pc7/HQIc+xfiJAZ4tCz9RNLw5DQVf4EAjnQxnuhf1xSB6ITepTu0+Q==}
-    engines: {node: '>=20'}
-    dev: false
-
-  /@k03mad/simple-log@2.1.0:
-    resolution: {integrity: sha512-D4m9i+UcnlJcuYDuZ8hq5ubbe72nNOvRMRLp8QZ3uTHnhOX3QqD4utkIcRoZZr6KH5fcHYPT1A5Oz0ZGObG5Uw==}
-    engines: {node: '>=20'}
-    dependencies:
-      '@k03mad/simple-date': 1.0.0
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
