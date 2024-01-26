@@ -21,7 +21,8 @@
   "babel": {
     "comments": false,
     "presets": [
-      "@babel/preset-env"
+      "@babel/preset-env",
+      "minify"
     ]
   },
   "devDependencies": {
