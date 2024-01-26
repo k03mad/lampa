@@ -1,0 +1,4 @@
+if [[ $(git status --porcelain) ]]; then
+   echo "Uncommited files present. Aborting push.";
+   exit 1;
+fi

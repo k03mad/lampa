@@ -15,8 +15,21 @@
   "engines": {
     "node": ">=20"
   },
+  "browserslist": [
+    "chrome > 1"
+  ],
+  "babel": {
+    "comments": false,
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
   "devDependencies": {
+    "@babel/cli": "7.23.9",
+    "@babel/core": "7.23.9",
+    "@babel/preset-env": "7.23.9",
     "@k03mad/eslint-config": "20.2.0",
+    "babel-preset-minify": "0.5.2",
     "eslint": "8.56.0",
     "husky": "9.0.5"
   },
@@ -27,6 +40,7 @@
     "clean:modules": "rm -rf ./node_modules || true",
     "clean:eslint:cache": "rm -rf .eslintcache || true",
     "setup": "npm run clean && pnpm i",
+    "build": "rm -rf plugins && babel src -d plugins",
     "prepare": "husky || true"
   }
 }
