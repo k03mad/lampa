@@ -40,7 +40,8 @@
     "clean": "npm run clean:modules && npm run clean:eslint:cache",
     "clean:modules": "rm -rf ./node_modules || true",
     "clean:eslint:cache": "rm -rf .eslintcache || true",
-    "setup": "npm run clean && npm i pnpm -g && pnpm i",
+    "setup": "npm run clean && npm run setup:pnpm",
+    "setup:pnpm": "npm i pnpm -g && pnpm i",
     "build": "rm -rf plugins && babel src -d plugins",
     "prepare": "husky || true"
   }
