@@ -29,10 +29,10 @@
     "@babel/cli": "7.23.9",
     "@babel/core": "7.23.9",
     "@babel/preset-env": "7.23.9",
-    "@k03mad/eslint-config": "20.2.0",
+    "@k03mad/eslint-config": "20.3.0",
     "babel-preset-minify": "0.5.2",
     "eslint": "8.56.0",
-    "husky": "9.0.9"
+    "husky": "9.0.11"
   },
   "scripts": {
     "lint": "npm run lint:eslint",
