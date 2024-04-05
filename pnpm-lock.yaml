@@ -15,8 +15,8 @@ devDependencies:
     specifier: 7.24.4
     version: 7.24.4(@babel/core@7.24.4)
   '@k03mad/eslint-config':
-    specifier: 20.7.0
-    version: 20.7.0(eslint@8.57.0)(typescript@5.3.3)
+    specifier: 20.9.0
+    version: 20.9.0(eslint@8.57.0)(typescript@5.3.3)
   babel-preset-minify:
     specifier: 0.5.2
     version: 0.5.2
@@ -1358,17 +1358,17 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
 
-  /@k03mad/eslint-config@20.7.0(eslint@8.57.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-65YxRd6xtpDpZWJmZed4z17c6KjiPvuOCK+nkNqkiUqXhBa2WrY1PowQEyXNAHB5N29Zw0dnM0nexeo1qn6/ZA==}
+  /@k03mad/eslint-config@20.9.0(eslint@8.57.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-cdSaHVExvG0M8xK9lAuopkGNiK+As+GZx13E3iSagQIkg9WSgq88uurx+Jx8hGGtbJIl5olq7IhwtwfTek5a8g==}
     engines: {node: '>=20'}
     dependencies:
       '@eslint/js': 8.57.0
       '@stylistic/eslint-plugin': 1.7.0(eslint@8.57.0)(typescript@5.3.3)
       eslint-plugin-array-func: 5.0.1(eslint@8.57.0)
       eslint-plugin-import: 2.29.1(eslint@8.57.0)
-      eslint-plugin-jsdoc: 48.2.2(eslint@8.57.0)
+      eslint-plugin-jsdoc: 48.2.3(eslint@8.57.0)
       eslint-plugin-n: 16.6.2(eslint@8.57.0)
-      eslint-plugin-perfectionist: 2.7.0(eslint@8.57.0)(typescript@5.3.3)
+      eslint-plugin-perfectionist: 2.8.0(eslint@8.57.0)(typescript@5.3.3)
       eslint-plugin-promise: 6.1.1(eslint@8.57.0)
       eslint-plugin-regexp: 2.4.0(eslint@8.57.0)
       eslint-plugin-sonarjs: 0.25.1(eslint@8.57.0)
@@ -2349,8 +2349,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jsdoc@48.2.2(eslint@8.57.0):
-    resolution: {integrity: sha512-S0Gk+rpT5w/ephKCncUY7kUsix9uE4B9XI8D/fS1/26d8okE+vZsuG1IvIt4B6sJUdQqsnzi+YXfmh+HJG11CA==}
+  /eslint-plugin-jsdoc@48.2.3(eslint@8.57.0):
+    resolution: {integrity: sha512-r9DMAmFs66VNvNqRLLjHejdnJtILrt3xGi+Qx0op0oRfFGVpOR1Hb3BC++MacseHx93d8SKYPhyrC9BS7Os2QA==}
     engines: {node: '>=18'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0
@@ -2389,8 +2389,8 @@ packages:
       semver: 7.6.0
     dev: true
 
-  /eslint-plugin-perfectionist@2.7.0(eslint@8.57.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-RpSMc0T0DT9DlOj4APzwlAjCqQMxFdsIYlupe73eDkKLn1mMK7fVw2z3nj2y822szKOpvHA7bDa56ySOlr4GXw==}
+  /eslint-plugin-perfectionist@2.8.0(eslint@8.57.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-XBjQ4ctU1rOzQ4bFJoUowe8XdsIIz42JqNrouFlae1TO78HjoyYBaRP8+gAHDDQCSdHY10pbChyzlJeBA6D51w==}
     peerDependencies:
       astro-eslint-parser: ^0.16.0
       eslint: '>=8.0.0'
