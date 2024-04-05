@@ -27,9 +27,9 @@
   },
   "devDependencies": {
     "@babel/cli": "7.24.1",
-    "@babel/core": "7.24.3",
-    "@babel/preset-env": "7.24.3",
-    "@k03mad/eslint-config": "20.6.0",
+    "@babel/core": "7.24.4",
+    "@babel/preset-env": "7.24.4",
+    "@k03mad/eslint-config": "20.7.0",
     "babel-preset-minify": "0.5.2",
     "eslint": "8.57.0",
     "husky": "9.0.11"
